@@ -1006,9 +1006,9 @@ textarea {
 }
 .image12-container {
   position: relative;
-  width: 600px; /* Set to your image width */
-  height: 500px; /* Set to your image height */
-  transform: translateX(-200px);
+  width: 810px; /* Set to your image width */
+  height: 550px; /* Set to your image height */
+  transform: translateX(-100px);
 }
 .image12-container img {
   position: absolute;
@@ -1027,7 +1027,7 @@ textarea {
   margin-top: 20px;
   display: flex;
   gap: 10px;
-  transform: translateX(-250px);
+  transform: translateX(-150px);
 }
 button {
   padding: 10px 20px;
@@ -1036,10 +1036,10 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  background-color: #007bff;
+  background-color: #164a97;
   color: #fff;
   transition: background-color 0.3s ease-in-out;
 }
 button:hover {
-  background-color: #0056b3;
+  background-color: #568eca;
 }
