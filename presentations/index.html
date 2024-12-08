@@ -134,7 +134,7 @@
 
                     </div>
                     <div class="image-col">
-                        <img src="./slides_src/images/machinelearningoverview.PNG" alt="Background Image" style="width: 500px; height: auto;">
+                        <img src="./slides_src/images/mloverview.png" alt="Background Image" style="width: 500px; height: auto;">
                     </div>
                 </div>
                 <!-- Row Below -->
@@ -447,7 +447,7 @@
                     </div>
                 </div>
                 <div class="img-col">
-                    <img src="./slides_src/images/machinelearningoverview.PNG">
+                    <img src="./slides_src/images/mloverview.png">
                 </div>
             </div>
             </div>
@@ -541,30 +541,30 @@
                     
                     let currentIndex = 0;
                 
-                    // Show the current image
+                    
                     function showImage(index) {
                       images.forEach((img, i) => {
-                        img.classList.remove('visible'); // Hide all images
+                        img.classList.remove('visible'); 
                         if (i === index) {
-                          img.classList.add('visible'); // Show the selected image
+                          img.classList.add('visible'); 
                         }
                       });
                     }
                 
-                    // Ensure the first image is visible when the page loads
+                    
                     window.addEventListener('load', () => {
-                      showImage(currentIndex); // Initially display the first image
+                      showImage(currentIndex); 
                     });
                 
-                    // Show the next image
+                   
                     nextButton.addEventListener('click', () => {
-                      currentIndex = (currentIndex + 1) % images.length; // Loop back to the first image
+                      currentIndex = (currentIndex + 1) % images.length; 
                       showImage(currentIndex);
                     });
                 
-                    // Show the previous image
+                    
                     prevButton.addEventListener('click', () => {
-                      currentIndex = (currentIndex - 1 + images.length) % images.length; // Loop back to the last image
+                      currentIndex = (currentIndex - 1 + images.length) % images.length; 
                       showImage(currentIndex);
                     });
                   </script>
